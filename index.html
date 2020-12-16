@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A simple minion translator application" />
+		<meta name="keywords" content="translator,minion" />
+		<meta name="author" content="Sarath" />
+		<link rel="stylesheet" href="./styles/styles.css" />
+		<link rel="shortcut icon" type="images/svg" href="/images/yoda.jpg" />
+		<title>Yoda translator | 💚</title>
+	</head>
+	<body>
+		<!-- start of header section -->
+		<header>
+			<h2>Simple Yoda translator</h2>
+		</header>
+		<!-- end of header section -->
+
+		<div id="yoda-image">
+			<img src="/images/yoda.jpg" alt="yoda-with-light-saber" />
+		</div>
+
+		<!-- Start of main section -->
+		<main>
+			<p>
+				<img src="/images/light-saber.png" alt="light-saber" /> Enter some text
+				here to see the translation &nbsp; <img
+					src="/images/light-saber.png"
+					alt="light-saber"
+				/>
+			</p>
+			<textarea
+				placeholder="enter your input here"
+				id="english-input-area"
+				cols="50"
+				rows="20"
+			></textarea>
+			<input id="translate" class="translate" type="button" value="translate" />
+			<p>Output</p>
+			<textarea
+				placeholder="output"
+				name="output"
+				id="output"
+				cols="50"
+				rows="20"
+				readonly
+			></textarea>
+		</main>
+		<!-- End of main section -->
+
+		<!-- start of footer section -->
+		<footer></footer>
+		<!-- end of footer section -->
+		<script src="./app.js"></script>
+	</body>
+</html>
